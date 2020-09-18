@@ -3,7 +3,16 @@ package com.company;
 import java.util.Scanner;
 
 public class Lab3 {
-    private static Byte January;
+    /*
+        Grades and comments below
+        -------------------------
+        Solid work. A bit of improvement needed on Part III.
+        See below. Regardless, you're improving quickly! 
+        You should be proud of this!
+
+        8.75/10
+    */
+    private static Byte January;  // what this doin here?
 
     public static void main(String[] args) {
         //Part 1//
@@ -12,7 +21,7 @@ public class Lab3 {
 
         int Age;
         Scanner TheirAge = new Scanner(System.in);
-        Age = TheirAge.nextInt();
+        Age = TheirAge.nextInt(); // you can re-use this variable later on!
 
         if (Age > 16) System.out.println("You may drive!");
         else System.out.println("You may... ride in the car with someone else!");
@@ -58,7 +67,14 @@ public class Lab3 {
         Years = ThemAge.nextInt();
 
         int prod1 = i * Years;
-
+        /*
+            So this isn't totally correct. It's MORE accurate than last time but
+            the goal is to compare the value to the actual date today. So you would have
+            to ask them for the current date (or code the date to Sep 18th 2020). Then
+            you would want to calculate the difference in months between their birthday
+            and the current month and multiply that by * days per month...Good work, but
+            not quite there
+        */
         int b = 30;
         int prod2 = prod1 + b;
         int prod3 = prod2 + b;
