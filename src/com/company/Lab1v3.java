@@ -19,7 +19,5 @@ public class Lab1v3 {
         System.out.println (Cotton.intern());
 
 
-        final int MyInt = 10;
-        MyInt = MyInt / 10;
     }
 }
