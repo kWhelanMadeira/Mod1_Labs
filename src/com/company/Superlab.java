@@ -9,10 +9,18 @@ import java.util.Scanner;
 public class Superlab {
 
     public static void main(String[] args) {
+      /*
+      Kora-
+        This is solid work! You made appropriate use of class methods
+        and were succinct in your code. Only suggestions are:
+        1. You didn't set the twitter handle properly. Take a look at your method.
+        2. You should prompt the user to enter their rating
 
+        Regardless, you should be proud of this.
+      */
 
        try {
-           File myObj = new File ("C:\\Users\\artemis\\Downloads\\artistList.txt");
+           File myObj = new File ("C:\\Users\\Peter Wallace Local\\Downloads\\artistList.txt");
            Scanner myReader = new Scanner(myObj);
            int numberOfLines = myReader.nextInt();
            String temp = myReader.nextLine();
